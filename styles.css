@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color:black;
+    /* background-color:black; */
     color:gray;
 }
 
@@ -14,6 +14,12 @@ h1{
     text-align: center;
     margin:100px auto 50px;
     font-weight:600;
+    color:rgb(144, 95, 103);
+    font-family:'Palentino', serif;
+}
+img{
+    height: 30px;
+    width: 30px;
 }
 
 form {
@@ -32,7 +38,7 @@ form input {
     height: 100%;
     border: 0;
     outline: 0;
-    background: transparent;
+    background: #ccccccad;
     color: white;
     font-size: 18px;
     padding: 0px 30px;
@@ -41,7 +47,7 @@ form input {
 form button{
     padding:0 40px;
     height:100%;
-    background:orange;
+    background:rgb(144, 95, 103);
     color:white;
     border:0;
     outline:0;
@@ -56,7 +62,7 @@ form button{
 }
 
 #show-more-btn{
-    background:orange;
+    background:rgb(144, 95, 103);
     color:white;
     border:0;
     outline:0;
@@ -80,4 +86,13 @@ form button{
     height: min-content;
     object-fit:covered;
     border-radius:5px;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    position:relative;   
+    background-color:#cccccc1f;
+    margin-top:305px;
+    padding:20px;
 }
